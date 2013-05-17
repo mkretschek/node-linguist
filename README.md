@@ -1,4 +1,4 @@
 node-linguist
 =============
 
-Tools for extracting CLDR data for app i18n and l10n.
+Tools for generating languages modules containing rules, formats and common translations.

@@ -1,0 +1,36 @@
+{
+  "name" : "linguist",
+  "description" : "Tools for generating languages modules containing rules, formats and common translations.",
+  "version" : "0.0.1",
+  "author" : {
+    "name" : "Mathias Kretschek",
+    "email" : "mathias@kretschek.com.br"
+  },
+  "contributors" : [
+    {
+      "name" : "Mathias Kretschek",
+      "email" : "mathias@kretschek.com.br"
+    }
+  ],
+  "bugs" : "https://github.com/mkretschek/node-linguist/issues",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/mkretschek/node-linguist.git"
+  },
+  "scripts" : {
+    "test" : "mocha -R spec -u bdd --recursive"
+  },
+  "dependencies" : {
+    "underscore" : "1.4",
+    "foojs" : "git://github.com/mkretschek/node-foojs.git",
+    "xml2js" : "0.2"
+  },
+  "devDependencies" : {
+    "mocha" : "1.9",
+    "expect.js" : "0.2"
+  },
+  "engine" : {
+    "node" : "0.10"
+  },
+  "main" : "./index.js"
+}
